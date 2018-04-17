@@ -55,15 +55,15 @@ header {
           }
           > li.active {
                 a {
-                    color: $orangeColor;
+                    color: $mainColor;
                 }
-                border-bottom:1px solid $orangeColor;
+                border-bottom:1px solid $mainColor;
             }
             > li:hover {
                 a {
-                    color: $orangeColor;
+                    color: $mainColor;
                 }
-                border-bottom:1px solid $orangeColor;
+                border-bottom:1px solid $mainColor;
             }            
         }
     }

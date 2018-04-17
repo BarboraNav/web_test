@@ -17,8 +17,8 @@ body {
      margin: 2% 5%;
     }
 
-    span.orange-text {
-      color: $orangeColor;
+    span.color-text {
+      color: $mainColor;
     }
 }
 
@@ -91,14 +91,14 @@ header {
         }
       }
       input ~ nav {
-       
 
         > ul {
           text-align: center;
-
+          background-color: $primaryColor;
 
           > li {
             display: none;
+
             > a {
               text-decoration: none;
               text-transform: uppercase;
@@ -160,7 +160,7 @@ header {
 }
 
 .prev:hover, .next:hover {
-  color:$orangeColor;
+  color:$mainColor;
 }
 
 .text {
@@ -192,9 +192,9 @@ button {
   width:10rem;
   height:2.5rem;
   border-radius:20px;
-  border: 1px solid $orangeColor;
+  border: 1px solid $mainColor;
   background-color: $primaryColor;
-  color: $orangeColor;
+  color: $mainColor;
   font-size: 1rem;
   position:absolute;
   margin-left:-1.5%;
@@ -250,7 +250,7 @@ main {
     }
   
     p a {
-      color: $orangeColor;
+      color: $mainColor;
       text-decoration: none;
       
     }
@@ -279,7 +279,7 @@ main {
   .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted $orangeColor;
+    border-bottom: 1px dotted $mainColor;
   }
 
 .tooltip .tooltiptext {
@@ -328,7 +328,7 @@ footer {
   }
 
   p span.copy {
-    color: $orangeColor;
+    color: $mainColor;
     font-size: 0.8rem;
     text-align: center;  
     }
@@ -337,10 +337,5 @@ footer {
       font-size: 1rem;
       text-align: center;  
       }
-
-    p a {
-      text-decoration: none;
-      color: $orangeColor;
-    }  
 
 }

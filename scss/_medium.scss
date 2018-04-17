@@ -25,7 +25,7 @@ img {
   }
 
 .prev:hover, .next:hover {
-    color:  $orangeColor;
+    color:  $mainColor;
   }
 
 .text {
@@ -53,7 +53,7 @@ img {
   }
 
 button {
-    color: $orangeColor;
+    color: $mainColor;
     font-size: 1rem;
     margin-top: 250px;
     margin-left: -250px;
@@ -75,11 +75,11 @@ button {
     margin-top: -5px;
   }
 
-  .diagram { 
+  .pictures { 
     height:280px;
 
 }
-  .diagram img.fake{
+  .pictures img{
    max-width:50%;
    margin: 2% 25%;
           
